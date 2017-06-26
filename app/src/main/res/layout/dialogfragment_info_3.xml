@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:id="@+id/tv_ten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên Học Sinh"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_lop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mã Lớp"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_ms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mã Học Sinh"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel" />
+</LinearLayout>

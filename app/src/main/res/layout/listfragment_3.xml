@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frm_list"
+        tools:layout="@layout/listfragment_list_3"
+        android:name="com.sev.sevlocation.all_tool.Fragment_3.ListFragment.ListFragment_list"
+        />
+</LinearLayout>

@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sev.sevlocation.all_tool.Fragment_3.Fragment.BlueFragment"
+    android:background="#0410f2"
+    android:id="@+id/fr_blue">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tổng là:"
+        android:layout_gravity="center"
+        android:textColor="#f90505"
+        android:textStyle="bold"
+        android:id="@+id/tv_tong_blue"/>
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Back"
+    android:id="@+id/btn_back"
+    android:layout_gravity="center"
+    />
+    </LinearLayout>
+</FrameLayout>
